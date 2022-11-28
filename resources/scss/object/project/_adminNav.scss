@@ -1,0 +1,46 @@
+&adminNav {
+    a {
+        color: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100%;
+        width: 100%;
+        padding: 0 1rem;
+        transition: opacity 0.3s;
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+
+    & > li {
+        border-bottom: 1px solid #FFF;
+        font-size: 1.4rem;
+
+        & > a {
+            height: 5rem;
+        }
+
+        &:first-child {
+            border-top: 1px solid #FFF;
+        }
+
+        & > ul {
+            padding-left: 2rem;
+            border-top: 1px dashed #FFF;
+            display: none;
+
+            &.show {
+                display: block;
+            }
+
+            & > li {
+                font-size: 1.2rem;
+
+                & > a {
+                    height: 3rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+&footer {
+    background-color: $color-main;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem 0 5rem;
+
+        &__info {
+            font-size: 4rem;
+            font-weight: 700;
+            letter-spacing: -0.05em;
+            font-family: $font-en;
+            width: 20%;
+
+            a {
+                color: #FFF;
+            }
+        }
+
+        &__nav {
+            width: 76%;
+            padding-top: 3rem;
+        }
+    }
+
+    &__copy {
+        background-color: #555;
+        color: #FFF;
+        text-align: center;
+        padding: 0.8rem 0;
+    }
+}

@@ -1,0 +1,51 @@
+&toolbarNav {
+    display: flex;
+    align-items: center;
+
+    &__top {
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        font-weight: 700;
+        font-size: 1.0rem;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        color: #FFF;
+        border-right: 1px solid #FFF;
+        transition: opacity 0.3s;
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+
+    &__siteName {
+        color: #FFF;
+        font-size: 1.2rem;
+        padding: 0 2rem;
+        border-right: 1px solid #FFF;
+    }
+
+    &__user {
+        color: #FFF;
+        font-size: 1.2rem;
+        padding: 0 2rem; 
+        border-right: 1px solid #FFF;
+    }
+
+    &__logout {
+        height: 4rem;
+        width: 16rem;
+        margin-left: auto;
+        background-color: rgb(194, 62, 62);
+        line-height: 4rem;
+        font-weight: 700;
+        font-size: 1.4rem;
+        text-align: center;
+        color: #FFF;
+        transition: opacity 0.3s;
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}

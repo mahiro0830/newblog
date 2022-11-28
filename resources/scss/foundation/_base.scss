@@ -1,0 +1,24 @@
+html {
+  text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+  font-size: 62.5%;
+  --vh: 11.05px;
+}
+
+body {
+  min-width:  $size-pc;
+  font-family: $font-ja;
+  line-height: $size-line-height;
+  color: $color-font;
+  font-size: 1.6rem;
+  @include mq() {
+    min-width: auto;
+  }
+  @include mq(sp) {
+    min-width: $size-sp;
+  }
+}
+
+img {
+  image-rendering: -webkit-optimize-contrast;
+}

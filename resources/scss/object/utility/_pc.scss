@@ -1,0 +1,5 @@
+&pc {
+  @include mq() {
+    display: none !important;
+  }
+}

@@ -1,0 +1,19 @@
+&headerNav {
+    display: flex;
+    align-items: center;
+
+    &__item {
+        &:not(:last-child) {
+            margin-right: 2rem;
+        }
+
+        a {
+            font-size: 1.4rem;
+            color: $color-font;
+            transition: opacity 0.3s;
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+}

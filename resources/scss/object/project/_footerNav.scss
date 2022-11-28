@@ -1,0 +1,22 @@
+&footerNav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+    &__item {
+        font-size: 1.4rem;
+
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+
+        a {
+            color: #FFF;
+            transition: opacity 0.3s;
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+}

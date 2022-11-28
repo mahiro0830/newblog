@@ -1,0 +1,7 @@
+&container {
+    max-width: $container;
+    margin: 0 auto;
+    @include mq() {
+        padding: $size-padding;
+    }
+}

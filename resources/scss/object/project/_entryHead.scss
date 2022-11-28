@@ -1,0 +1,21 @@
+&entryHead {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2rem;
+
+    &__category {
+        font-size: 1.4rem;
+        color: #FFF;
+        background-color: $color-main;
+        border-radius: 0.5rem;
+        padding: 0.3rem 1rem;
+        margin-right: 1.5rem;
+        &.nocategory {
+            background-color: rgb(149, 149, 149);
+        }
+    }
+
+    &__time {
+        font-size: 1.4rem;
+    }
+}

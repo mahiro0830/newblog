@@ -1,0 +1,39 @@
+&paginate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.5rem;
+
+    a {
+        width: 4rem;
+        height: 4rem;
+        border: 1px solid #555;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.4rem;
+        font-weight: bold;
+        line-height: 1;
+        color: $color-font;
+        transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+
+        &[href="javascript:void(0)"] {
+            pointer-events: none;
+            cursor: default;
+            opacity: 0.4;
+        }
+
+        &:hover,
+        &.current {
+            opacity: 1 !important;
+            background-color: $color-main;
+            color: #FFF;
+            border-color: $color-main;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+&buttonMini {
+    -webkit-appearance: none;
+    border: 0;
+    cursor: pointer;
+    background-color: $color-main;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 0.4rem 3rem;
+    border-radius: 0.5rem;
+    transition: 0.3s opacity;
+    &:hover {
+        opacity: 0.6;
+    }
+}

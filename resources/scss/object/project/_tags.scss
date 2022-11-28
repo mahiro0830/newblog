@@ -1,0 +1,15 @@
+&tags {
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    a {
+        background-color: rgb(174, 171, 171);
+        color: #fff;
+        padding: 0.2rem 0.6rem;
+        border-radius: 0.4rem;
+        font-size: 1.2rem;
+        margin-right: 0.6rem;
+        margin-bottom: 0.6rem;
+    }
+}

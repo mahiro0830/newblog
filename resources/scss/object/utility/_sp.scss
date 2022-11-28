@@ -1,0 +1,10 @@
+&sp {
+  display: none !important;
+  @include mq() {
+    display: block !important;
+
+    &--dib {
+      display: inline-block !important;
+    }
+  }
+}

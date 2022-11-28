@@ -1,0 +1,12 @@
+&input {
+    display: flex;
+    justify-content: space-between;
+
+    &__main {
+        width: 76%;
+    }
+
+    &__sidebar {
+        width: 23.0%;
+    }
+}

@@ -1,0 +1,49 @@
+&taxonomyList {
+    border-collapse: collapse;
+    width: 100%;
+
+    thead {
+        background-color: #ddd;
+        font-weight: bold;
+    }
+
+    tbody {
+        tr:nth-child(2n) {
+            background-color: #f7f7f7;
+        }
+
+        th,
+        td:nth-child(2) {
+            text-align: left !important;
+        }
+    }
+
+    td,th {
+        padding: 1rem 0;
+    }
+
+    th {
+        width: 50%;
+        padding: 0 1rem;
+    }
+
+    td:nth-child(2) {
+        width: 30%;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    td:nth-child(3) {
+        width: 10%;
+        text-align: center;
+
+        a {
+            color: red;
+        }
+    }
+
+    td:nth-child(4) {
+        width: 10%;
+        text-align: center;
+    }
+}
