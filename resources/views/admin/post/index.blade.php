@@ -32,10 +32,10 @@
                 <a href="{{ route('admin.post.delete') }}?post_id={{ $entry->id }}" style="color: red;">削除</a>
             </th>
             <td style="vertical-align: middle;">
-            @if( $entry['relation_category']['category_id'] != NULL )
-            {{ $entry['relation_category']['category']['name'] }}
+            @if( $entry->relation_category && $entry->relation_category->category )
+                {{ $entry->relation_category->category->name }}
             @else
-            -
+                -
             @endif
             </td>
         </tr>
