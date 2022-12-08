@@ -17,8 +17,8 @@ class CreateTermsTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('slug');
-            $table->bigInteger('term_group');
-            $table->bigInteger('term_order');
+            $table->bigInteger('term_group')->default(0);
+            $table->bigInteger('term_order')->default(0);
         });
     }
 
